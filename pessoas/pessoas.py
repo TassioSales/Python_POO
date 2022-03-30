@@ -55,20 +55,3 @@ class Pessoa:
     def get_ano_nascimento(self):
         return self.ano_atual - self.idade
 
-   
-
-
-
-    
-
-    #def esta_comendo(self):
-        #if self.comendo == True:
-           # print(f"O {self.nome} esta comendo")
-        #else:
-            #print(f"O {self.nome} não esta falando")
-
-    #def esta_falando(self):
-        #if self.falando == True:
-                #print(f"O {self.nome} esta Falando")
-        #else:
-            #print(f"O {self.nome} não esta falando ")
