@@ -8,7 +8,7 @@ class BaseDeDados:
         self.__dados = {}
 
     @property
-    def daods(self):
+    def dados(self):
         return self.__dados
     
     def inserir_cliente(self, id, nome):
@@ -35,5 +35,8 @@ bd.inserir_cliente(4, "Sales")
 bd.__dados = "Outra coisa"
 
 print(bd._BaseDeDados__dados)
+print(bd.dados)
+
+print()
 
 bd.lista_clientes()
