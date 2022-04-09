@@ -17,9 +17,11 @@ class Cliente(Pessoa):
 
 
 class ClienteVIP(Cliente):
+    def __init__(self, nome, idade, sobrenome):
+        Pessoa.__init__(self, nome, idade)
+        self.sobrenome = sobrenome
 
     def falar(self):
         Pessoa.falar(self)
         Cliente.falar(self)
-        print("Outra coisa qualquer")
-    pass
+        print(f"{self.nome} {self.sobrenome}")

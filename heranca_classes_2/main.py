@@ -5,7 +5,7 @@ c1.comprar()
 
 print()
 
-c2 = ClienteVIP('Rose', 25)
+c2 = ClienteVIP('Rose', 25, 'Sales')
 c2.falar()
 
 
